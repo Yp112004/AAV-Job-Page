@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers at Amratpal A Vision</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f7ff;    
+      color: #333;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ffce00, #ff9d00);
+      padding: 15px 30px;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+      color: #1c1c1c;
+    }
+
+    p {
+      color: #666;
+      font-size: 1.1rem;
+      margin-bottom: 40px;
+    }
+
+    .job-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .job-card {
+      background: linear-gradient(145deg, #ffffff, #e6e9f0);
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      width: 320px;
+      padding: 30px 25px;
+      text-align: left;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .job-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0, 91, 255, 0.2);
+    }
+
+    .job-icon {
+      font-size: 2.5rem;
+      color: #005bff;
+      margin-bottom: 15px;
+    }
+
+    .job-title {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: #005bff;
+      margin-bottom: 10px;
+    }
+
+    .job-info {
+      font-size: 0.95rem;
+      color: #444;
+      margin-bottom: 20px;
+    }
+
+    .apply-btn {
+      background-color: #005bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 0.95rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .apply-btn:hover {
+      background-color: #003fbe;
+      box-shadow: 0 4px 10px rgba(0, 91, 255, 0.3);
+    }
+
+    footer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      font-size: 0.95rem;
+      color: #555;
+      text-align: center;
+      border-top: 1px solid #ddd;
+      font-weight: 500;
+    }
+
+    @media (max-width: 600px) {
+      .job-grid {
+        flex-direction: column;
+        gap: 20px;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    🚀 Freshers & Experienced Welcome!
+  </header>
+
+  <div class="container">
+    <h1>Join Amratpal A Vision</h1>
+    <p>Shape the future with us. Explore our career openings and find the role that fits your passion.</p>
+    <div class="job-grid">
+      <!-- Graphic Designer -->
+      <div class="job-card">
+        <div class="job-icon"><i class="fas fa-paint-brush"></i></div>
+        <div class="job-title">UI/UX & Graphic Designer</div>
+        <div class="job-info"><br>Experience: 0–2 years</div>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+
+      <!-- Video Editor -->
+      <div class="job-card">
+        <div class="job-icon"><i class="fas fa-video"></i></div>
+        <div class="job-title">Video Editor</div>
+        <div class="job-info"><br>Experience: 0–2 years</div>
+        <button class="apply-btn">Apply Now</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Amratpal A Vision — Crafted with care for creative talent.
+  </footer>
+</body>
+</html>
